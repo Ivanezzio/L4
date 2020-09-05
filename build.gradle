@@ -29,3 +29,7 @@ task google_tests (type: Test) {
     }
 }
 
+task createNewIssue (type: Test) {
+    useJUnitPlatform {
+    }
+}
