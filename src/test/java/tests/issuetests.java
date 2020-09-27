@@ -20,6 +20,7 @@ public class issuetests {
         $(".header-search-input").submit();
         $(By.linkText("Ivanezzio/L4")).click();
         $(withText("Issues")).click();
+        $(withText("New issue")).click();
 
 
 
